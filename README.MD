@@ -3,6 +3,7 @@
 [![license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](https://opensource.org/licenses/MIT)
 ## Description: 
 node.js application that generates a readme file based on prompted user input
+
 ## Table of Contents: 
 * [Description](#description)
 * [Installation](#installation)
@@ -10,6 +11,7 @@ node.js application that generates a readme file based on prompted user input
 * [Contribution Guidelines](#contribution-guidelines)
 * [Testing](#testing)
 * [Questions](#questions)
+* [Media](#media)
 * [Licensing](#licensing)
   
 ## Installation
@@ -29,6 +31,18 @@ Code must be clean and clearly documented.
 Contact Me: 
 * GitHub: [Alexander-Perry](http://github.com/Alexander-Perry)
 * e-mail: [alexander.h.perry@gmail.com](mailto:alexander.h.perry@gmail.com)
+
+## Media: 
+### Video Walkthrough
+https://drive.google.com/file/d/1kvWBVI7njPwFeTi4wE4Yw17lELmHeZZF/view
+
+### Screenshots
+![Screenshot](https://user-images.githubusercontent.com/102524579/179400031-505a3f5d-4da5-4949-ba79-01d8ef239e9c.png)
+
+![ReadmefileScreenshot](https://user-images.githubusercontent.com/102524579/179400040-a6d2d46b-7dbf-438b-8d43-65efd81efe84.png)
+
+
+
 
 ## Licensing:
 
