@@ -220,12 +220,11 @@ ${data.testing}
 
 ## Questions
 Contact Me: 
-* GitHub: [${data.github}](http://github.com/${data.github})
-* e-mail: [${data.email}](mailto:${data.email})
+* GitHub: http://github.com/${data.github}
+* e-mail: ${data.email}
 
 ## Licensing:
-${renderLicenseSection(data.license, data.github, data.title, data.description)} 
-`;
+${renderLicenseSection(data.license, data.github, data.title, data.description)}`
 };
 
 module.exports = generateMarkdown;
