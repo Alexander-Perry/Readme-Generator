@@ -29,8 +29,8 @@ Code must be clean and clearly documented.
 
 ## Questions
 Contact Me: 
-* GitHub: [Alexander-Perry](http://github.com/Alexander-Perry)
-* e-mail: [alexander.h.perry@gmail.com](mailto:alexander.h.perry@gmail.com)
+* GitHub: http://github.com/Alexander-Perry
+* e-mail: alexander.h.perry@gmail.com
 
 ## Media: 
 ### Video Walkthrough
