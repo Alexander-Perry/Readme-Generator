@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const { type } = require('os');
 
 
 // TODO: Create an array of questions for user input
@@ -41,14 +42,29 @@ const questions = [{
     },
     {
         type: 'list',
-        name: 'licence',
-        message: 'Select the licence for your project',
-        choices: ['none'] /// Search these
+        name: 'license',
+        message: 'Select the license for your project',
+        choices: [
+            'MIT License',
+            'Apache License 2.0',
+            'Mozilla Public License 2.0',
+            'GNU AGPLv3',
+            'GNU GPLv3',
+            'GNU LGPLv3',
+            'Boost Software License 1.0',
+            'The Unlicense',
+            'None'
+        ]
     },
     {
         type: 'input',
         name: 'github',
         message: 'Your GitHub username: '
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Your email address: '
     }
 ];
 
@@ -57,12 +73,23 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions);
+    inquirer.prompt(questions)
+        .then((data) => {
+            console.log(generateMarkdown(data));
+
+
+        });
+};
+
+function test() {
+    const todaysDate = new Date()
+    const currentYear = todaysDate.getFullYear()
+    console.log(currentYear)
 }
 
 // Function call to initialize app
 init();
-
+// test();
 
 
 // GIVEN a command-line application that accepts user input
