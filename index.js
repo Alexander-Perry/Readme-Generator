@@ -35,33 +35,33 @@ const questions = [{
     type: 'input',
     name: 'testing',
     message: 'Test Instructions: '
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'Select the license for your project',
-        choices: [
-            'MIT License',
-            'Apache License 2.0',
-            'Mozilla Public License 2.0',
-            'GNU AGPLv3',
-            'GNU GPLv3',
-            'GNU LGPLv3',
-            'Boost Software License 1.0',
-            'The Unlicense',
-            'None'
-        ]
-    },
-    {
-        type: 'input',
-        name: 'github',
-        message: 'Your GitHub username: '
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'Your email address: '
-    }
+},
+{
+    type: 'list',
+    name: 'license',
+    message: 'Select the license for your project',
+    choices: [
+        'MIT License',
+        'Apache License 2.0',
+        'Mozilla Public License 2.0',
+        'GNU AGPLv3',
+        'GNU GPLv3',
+        'GNU LGPLv3',
+        'Boost Software License 1.0',
+        'The Unlicense',
+        'None'
+    ]
+},
+{
+    type: 'input',
+    name: 'github',
+    message: 'Your GitHub username: '
+},
+{
+    type: 'input',
+    name: 'email',
+    message: 'Your email address: '
+}
 ];
 
 // initialise the app and run the functions
