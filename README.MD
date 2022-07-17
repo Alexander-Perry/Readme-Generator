@@ -16,6 +16,8 @@ node.js application that generates a readme file based on prompted user input
   
 ## Installation
 * Install dependencies using NPM
+  * fs
+  * inquirer
 
 ## Usage
 node index.js
