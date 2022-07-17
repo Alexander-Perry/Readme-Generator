@@ -71,25 +71,22 @@ const questions = [{
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
+// initialise the app
 function init() {
+    // inquirer prompt for questions 
     inquirer.prompt(questions)
         .then((data) => {
-            console.log(generateMarkdown(data));
-
-
+            // run the generatemarkdown function
+            const answers = generateMarkdown(data);
+            //write the readme file
+            fs.writeFile('README.MD', answers, (err) =>
+                err ? console.log(err) : console.log('README.MD generated'))
         });
 };
 
-function test() {
-    const todaysDate = new Date()
-    const currentYear = todaysDate.getFullYear()
-    console.log(currentYear)
-}
-
 // Function call to initialize app
 init();
-// test();
+
 
 
 // GIVEN a command-line application that accepts user input
