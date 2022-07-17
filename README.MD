@@ -19,11 +19,11 @@ node.js application that generates a readme file based on prompted user input
 node index.js
 
 ## Contribution Guidelines
-Code must be clean and clearly documented. 
+Code must be clean and clearly documented.
 
 ## Testing
-* Testing prompts
-* Testing license options
+* Test user prompt data. 
+* Test licensing options and validate links
 
 ## Questions
 Contact Me: 
